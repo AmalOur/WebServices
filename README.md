@@ -22,8 +22,8 @@ The WebServices Project is a RESTful API developed in Java using Spring Boot and
 Clone the repository:
 
 ```bash
-git clone https://github.com/amalour/jaxrs_jersey.git
-cd jaxrs_jersey
+git clone https://github.com/amalour/webservices.git
+cd webservices
 ```
 
 Build the project:
