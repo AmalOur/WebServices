@@ -50,13 +50,13 @@ mvn spring-boot:run
 - **Fetch Account by ID**:
 
     ```bash
-    curl -X GET "http://localhost:8080/banque/compte/1" -H "accept: application/json"
+    curl -X GET "http://localhost:8082/banque/compte/1" -H "accept: application/json"
     ```
 
 - **Create a New Account**:
 
     ```bash
-    curl -X POST "http://localhost:8080/banque/compte" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"name\": \"John Doe\", \"balance\": 1000.0 }"
+    curl -X POST "http://localhost:8082/banque/compte" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"name\": \"John Doe\", \"balance\": 1000.0 }"
     ```
 
 ## Technologies Used
